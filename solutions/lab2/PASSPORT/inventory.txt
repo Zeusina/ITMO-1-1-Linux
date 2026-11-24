@@ -1,0 +1,87 @@
+
+=== Дата запуска ===
+Вс 22 ноя 2026 22:33:28 MSK
+
+=== Информация о системе ===
+Имя хоста: lab-host
+Текущий пользователь: student
+Название и версия ядра: Linux #1 SMP Debian 6.12.111-1 (2026-09-28) unknown
+Версия операционной системы: 13 (trixie)
+
+=== Процессор ===
+Модель процессора: -
+Максимальная частота процессора, МГц: -
+Минимальная частота процессора, МГц: -
+Количество логических ядер: 2
+Кэш L1i: -
+Кэш L1d: -
+Кэш L2: -
+Кэш L3: -
+
+=== Память ===
+Объем физической памяти: 1,9Gi
+
+=== Платформа ===
+Модель материнской платы: VBSA
+Версия BIOS: VMW201.00V.25600138.BA64.2607151225
+Дата выпуска BIOS: 07/15/2026
+
+=== Устройства подключенные к шине PCI ===
+
+00:00.0 Host bridge: VMware Device 1976 (rev 01)
+00:00.7 System peripheral: VMware Virtual Machine Communication Interface (rev 10)
+00:0f.0 VGA compatible controller: VMware SVGA II Adapter (Fusion)
+00:11.0 PCI bridge: VMware PCI bridge (rev 02)
+00:15.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+01:00.0 USB controller: VMware USB1.1 UHCI Controller
+01:01.0 Audio device: VMware HD Audio Controller (rev 09)
+01:02.0 USB controller: VMware USB2 EHCI Controller
+01:03.0 SATA controller: VMware SATA AHCI controller
+02:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection
+0a:00.0 USB controller: VMware Device 077a
+12:00.0 Non-Volatile memory controller: VMware NVMe SSD Controller
+
+=== Информация о директории ===
+Текущая директория: /home/student/lab2
+Содержимое текущей директории:
+01-disable-snd.conf
+PASSPORT
+script221.sh
+script222.sh
+script223.sh
+script224.sh
+script225.sh
+script226.sh
+script23.sh
+script_passport.sh
