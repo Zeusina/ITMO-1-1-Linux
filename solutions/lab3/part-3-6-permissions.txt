@@ -1,0 +1,16 @@
+=== Корневой каталог /DATA ===
+d---rwxr-x 5 root project 4096 ноя 11 13:58 /DATA
+
+=== Все файлы и каталоги ===
+d---rwxr-x 5 root project 4096 ноя 11 13:58 /DATA
+----rwsr-x 1 u1 project 0 ноя 11 13:51 /DATA/u1.txt
+d---rwsrwt 2 root project 4096 ноя 11 14:49 /DATA/sec1
+-rw-rw-r-- 1 u1 project 6 ноя 11 14:34 /DATA/sec1/u1.txt
+-rw-rw-r-- 1 u1 project 0 ноя 11 14:49 /DATA/sec1/u1-2.txt
+-rw-rw-r-- 1 u1 project 0 ноя 11 14:43 /DATA/sec1/u1-1.txt
+drwxrwsr-x 2 root root 4096 ноя 11 17:24 /DATA/sec3
+-r-sr-xr-x 1 u1 u1 332608 ноя 11 17:24 /DATA/sec3/nano
+drwxr-s--- 2 u1 sec2 4096 ноя 11 17:31 /DATA/sec2
+-rw-rw-r-- 1 u1 sec2 5 ноя 11 17:31 /DATA/sec2/2.txt
+-rw-rw-r-- 1 u1 sec2 3 ноя 11 17:29 /DATA/sec2/1.txt
+

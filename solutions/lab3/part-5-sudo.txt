@@ -1,0 +1,15 @@
+=== Правило пользователя u1 ===
+u1 ALL=(ALL : ALL) /usr/bin/passwd, !/usr/bin/passwd root
+=== Проверка sudoers ===
+/etc/sudoers: успешно обработан
+/etc/sudoers.d/00-student: успешно обработан
+/etc/sudoers.d/README: успешно обработан
+/etc/sudoers.d/u1: успешно обработан
+=== Права файла ===
+-r--r----- 1 root root 58 ноя 21 18:10 /etc/sudoers.d/u1
+=== Разрешенные команды ===
+Соответствие записей Defaults для u1 на lab-host:
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin, use_pty
+
+Пользователь u1 может выполнять следующие команды на lab-host:
+    (ALL : ALL) /usr/bin/passwd, !/usr/bin/passwd root

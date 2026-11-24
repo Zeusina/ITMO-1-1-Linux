@@ -1,0 +1,2 @@
+scp student@192.168.1.100:~/lab3/script31.sh .
+scp -o PubkeyAuthentication=yes -o PreferredAuthentications=publickey student@192.168.1.100:~/lab3/script31.sh . # Явное указание ключа как способа аутентификации

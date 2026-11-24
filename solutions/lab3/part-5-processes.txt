@@ -1,0 +1,287 @@
+=== Процессы ===
+    PID    PPID USER     STAT CMD
+      1       0 root     Ss   /sbin/init
+      2       0 root     S    [kthreadd]
+      3       2 root     S    [pool_workqueue_release]
+      4       2 root     I<   [kworker/R-kvfree_rcu_reclaim]
+      5       2 root     I<   [kworker/R-rcu_gp]
+      6       2 root     I<   [kworker/R-sync_wq]
+      7       2 root     I<   [kworker/R-slub_flushwq]
+      8       2 root     I<   [kworker/R-netns]
+     10       2 root     I<   [kworker/0:0H-events_highpri]
+     13       2 root     I<   [kworker/R-mm_percpu_wq]
+     14       2 root     I    [rcu_tasks_rude_kthread]
+     15       2 root     I    [rcu_tasks_trace_kthread]
+     16       2 root     S    [ksoftirqd/0]
+     17       2 root     I    [rcu_sched]
+     18       2 root     S    [rcu_exp_par_gp_kthread_worker/0]
+     19       2 root     S    [rcu_exp_gp_kthread_worker]
+     20       2 root     S    [migration/0]
+     21       2 root     S    [cpuhp/0]
+     22       2 root     S    [cpuhp/1]
+     23       2 root     S    [migration/1]
+     24       2 root     S    [ksoftirqd/1]
+     26       2 root     I<   [kworker/1:0H-events_highpri]
+     29       2 root     S    [kdevtmpfs]
+     30       2 root     I<   [kworker/R-inet_frag_wq]
+     31       2 root     S    [kauditd]
+     32       2 root     S    [khungtaskd]
+     33       2 root     S    [oom_reaper]
+     34       2 root     I<   [kworker/R-writeback]
+     35       2 root     S    [kcompactd0]
+     36       2 root     SN   [ksmd]
+     37       2 root     SN   [khugepaged]
+     38       2 root     I<   [kworker/R-kintegrityd]
+     39       2 root     I<   [kworker/R-kblockd]
+     40       2 root     I<   [kworker/R-blkcg_punt_bio]
+     42       2 root     I<   [kworker/R-tpm_dev_wq]
+     43       2 root     I<   [kworker/R-edac-poller]
+     44       2 root     I<   [kworker/R-devfreq_wq]
+     45       2 root     S    [watchdogd]
+     46       2 root     I<   [kworker/R-quota_events_unbound]
+     47       2 root     I<   [kworker/0:1H-kblockd]
+     48       2 root     S    [kswapd0]
+     56       2 root     I<   [kworker/R-kthrotld]
+     60       2 root     I<   [kworker/R-acpi_thermal_pm]
+     61       2 root     I<   [kworker/R-mld]
+     62       2 root     I<   [kworker/1:1H-kblockd]
+     63       2 root     I<   [kworker/R-ipv6_addrconf]
+     68       2 root     I<   [kworker/R-kstrp]
+     70       2 root     I<   [kworker/u9:0]
+    211       2 root     I<   [kworker/R-nvme-wq]
+    212       2 root     I<   [kworker/R-nvme-reset-wq]
+    213       2 root     I<   [kworker/R-nvme-delete-wq]
+    214       2 root     I<   [kworker/R-ata_sff]
+    215       2 root     I<   [kworker/R-nvme-auth-wq]
+    216       2 root     S    [scsi_eh_0]
+    217       2 root     I<   [kworker/R-scsi_tmf_0]
+    218       2 root     S    [scsi_eh_1]
+    219       2 root     I<   [kworker/R-scsi_tmf_1]
+    220       2 root     S    [scsi_eh_2]
+    221       2 root     I<   [kworker/R-scsi_tmf_2]
+    222       2 root     S    [scsi_eh_3]
+    223       2 root     I<   [kworker/R-scsi_tmf_3]
+    224       2 root     S    [scsi_eh_4]
+    225       2 root     I<   [kworker/R-scsi_tmf_4]
+    226       2 root     S    [scsi_eh_5]
+    227       2 root     I<   [kworker/R-scsi_tmf_5]
+    228       2 root     S    [scsi_eh_6]
+    229       2 root     I<   [kworker/R-scsi_tmf_6]
+    230       2 root     S    [scsi_eh_7]
+    231       2 root     I<   [kworker/R-scsi_tmf_7]
+    232       2 root     S    [scsi_eh_8]
+    233       2 root     I<   [kworker/R-scsi_tmf_8]
+    234       2 root     S    [scsi_eh_9]
+    235       2 root     I<   [kworker/R-scsi_tmf_9]
+    236       2 root     S    [scsi_eh_10]
+    237       2 root     I<   [kworker/R-scsi_tmf_10]
+    238       2 root     S    [scsi_eh_11]
+    239       2 root     I<   [kworker/R-scsi_tmf_11]
+    240       2 root     S    [scsi_eh_12]
+    241       2 root     I<   [kworker/R-scsi_tmf_12]
+    242       2 root     S    [scsi_eh_13]
+    243       2 root     I<   [kworker/R-scsi_tmf_13]
+    244       2 root     S    [scsi_eh_14]
+    245       2 root     I<   [kworker/R-scsi_tmf_14]
+    246       2 root     S    [scsi_eh_15]
+    247       2 root     I<   [kworker/R-scsi_tmf_15]
+    248       2 root     S    [scsi_eh_16]
+    249       2 root     I<   [kworker/R-scsi_tmf_16]
+    250       2 root     S    [scsi_eh_17]
+    251       2 root     I<   [kworker/R-scsi_tmf_17]
+    252       2 root     S    [scsi_eh_18]
+    253       2 root     I<   [kworker/R-scsi_tmf_18]
+    254       2 root     S    [scsi_eh_19]
+    255       2 root     I<   [kworker/R-scsi_tmf_19]
+    256       2 root     S    [scsi_eh_20]
+    257       2 root     I<   [kworker/R-scsi_tmf_20]
+    258       2 root     S    [scsi_eh_21]
+    259       2 root     I<   [kworker/R-scsi_tmf_21]
+    260       2 root     S    [scsi_eh_22]
+    261       2 root     I<   [kworker/R-scsi_tmf_22]
+    262       2 root     S    [scsi_eh_23]
+    263       2 root     I<   [kworker/R-scsi_tmf_23]
+    264       2 root     S    [scsi_eh_24]
+    265       2 root     I<   [kworker/R-scsi_tmf_24]
+    266       2 root     S    [scsi_eh_25]
+    267       2 root     I<   [kworker/R-scsi_tmf_25]
+    268       2 root     S    [scsi_eh_26]
+    269       2 root     I<   [kworker/R-scsi_tmf_26]
+    270       2 root     S    [scsi_eh_27]
+    271       2 root     I<   [kworker/R-scsi_tmf_27]
+    272       2 root     S    [scsi_eh_28]
+    273       2 root     I<   [kworker/R-scsi_tmf_28]
+    274       2 root     S    [scsi_eh_29]
+    275       2 root     I<   [kworker/R-scsi_tmf_29]
+    362       2 root     S    [jbd2/nvme0n1p3-8]
+    363       2 root     I<   [kworker/R-ext4-rsv-conversion]
+    405       1 root     Ss   /usr/lib/systemd/systemd-journald
+    432       1 systemd+ Ssl  /usr/lib/systemd/systemd-timesyncd
+    437       1 root     Ss   /usr/lib/systemd/systemd-udevd
+    439       2 root     S    [psimon]
+    561       2 root     S    [irq/59-vmwgfx]
+    564       2 root     S    [irq/60-vmwgfx]
+    565       2 root     S    [irq/61-vmwgfx]
+    566       2 root     S    [irq/62-vmwgfx]
+    570       2 root     S    [irq/63-vmwgfx]
+    572       2 root     S    [irq/64-vmwgfx]
+    574       2 root     I<   [kworker/R-ttm]
+    737       1 root     Ss   /usr/sbin/cron -f
+    739       1 message+ Ss   /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+    755       1 root     Ss   /usr/lib/systemd/systemd-logind
+    756       1 root     Ss   /usr/bin/VGAuthService
+    759       1 root     Ssl  /usr/bin/vmtoolsd
+    865       2 root     I<   [kworker/R-cfg80211]
+    880       1 root     Ss+  /sbin/agetty -o -- \u --noreset --noclear - linux
+   1130       1 student    Ss   /usr/lib/systemd/systemd --user
+   1132    1130 student    S    (sd-pam)
+   1234       1 student    S    sh /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/bin/code-server --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-85e5bb45-677d-45b0-bf2e-31bb51dafd4a
+   1238    1234 student    Sl   /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-85e5bb45-677d-45b0-bf2e-31bb51dafd4a
+   1279    1238 student    Sl   /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=agentHost --logsPath /home/student/.vscode-server/data/logs/20261121T164745 --user-data-dir /home/student/.vscode-server/data --telemetry-level all
+   1296    1238 student    Sl   /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=ptyHost --logsPath /home/student/.vscode-server/data/logs/20261121T164745
+   2734       1 root     Ss   sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+   2903    2734 root     Ss   sshd-session: student [priv]
+   2910    2903 student    S    sshd-session: student@pts/0
+   2911    2910 student    Ss   -bash
+   8442    1296 student    Ss+  /bin/bash --init-file /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+  16869       1 systemd+ Ss   /usr/lib/systemd/systemd-networkd
+  16896       1 dhcpcd   S    dhcpcd: enp2s0 [ip4] [ip6]
+  16897   16896 root     S    dhcpcd: [privileged proxy] enp2s0 [ip4] [ip6]
+  16898   16896 dhcpcd   S    dhcpcd: [network proxy] enp2s0 [ip4] [ip6]
+  16899   16896 dhcpcd   S    dhcpcd: [control proxy] enp2s0 [ip4] [ip6]
+  16912   16897 dhcpcd   S    dhcpcd: [DHCP6 proxy] fe80::e5b7:bf13:52dd:9a7f
+  16917   16897 dhcpcd   S    dhcpcd: [BPF ARP] enp2s0 192.168.1.100
+  16943   16897 dhcpcd   S    dhcpcd: [BOOTP proxy] 192.168.1.100
+  19896    1238 student    Sl   /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node --dns-result-order=ipv4first /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+  19907    1238 student    Sl   /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=fileWatcher
+  19962   19896 student    Sl   /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/extensions/mads-hartmann.bash-ide-vscode-1.43.2/out/server.js --node-ipc --clientProcessId=19896
+  19977    1279 student    Sl   /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node_modules/@github/copilot-sdk-linux-arm64/prebuilds/linux-arm64/copilot-runtime --headless --no-auto-update --log-level info --stdio --no-auto-login
+  23052       2 root     S    [psimon]
+  24976       2 root     I    [kworker/u8:1-events_unbound]
+  31965       2 root     I    [kworker/u8:0-ext4-rsv-conversion]
+  34976       2 root     I    [kworker/0:2-cgwb_release]
+  36821    2734 root     Ss   sshd-session: student [priv]
+  36828   36821 student    S    sshd-session: student@notty
+  36829   36828 student    Ss   -bash
+  36833   36829 student    S    sh
+  36851   36833 student    Sl   /home/student/.vscode-server/code-8a14f0cc1b08d531eb83255ea3764ae22aa932b5 command-shell --cli-data-dir /home/student/.vscode-server/cli --parent-process-id 36833 --on-host=127.0.0.1 --on-port
+  38553       2 root     I    [kworker/1:1-events]
+  40568       2 root     I    [kworker/1:2]
+  40616       2 root     I    [kworker/0:0-events]
+  40640   19896 student    Sl   /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=19896
+  40722       2 root     I    [kworker/1:0-events]
+  40824       2 root     I    [kworker/u8:2-kvfree_rcu_reclaim]
+  41140   36833 student    S    sleep 180
+  41341       2 root     I    [kworker/u8:3]
+  41579    2911 student    R+   ps -eo pid,ppid,user,stat,cmd
+=== Дерево процессов ===
+systemd(1)-+-VGAuthService(756)
+           |-agetty(880)
+           |-cron(737)
+           |-dbus-daemon(739)
+           |-dhcpcd(16896)-+-dhcpcd(16897)-+-dhcpcd(16912)
+           |               |               |-dhcpcd(16917)
+           |               |               `-dhcpcd(16943)
+           |               |-dhcpcd(16898)
+           |               `-dhcpcd(16899)
+           |-sh(1234)---MainThread(1238)-+-MainThread(1279)-+-copilot-runtime(19977)-+-{copilot-runtime}(19979)
+           |                             |                  |                        |-{copilot-runtime}(19980)
+           |                             |                  |                        |-{copilot-runtime}(19981)
+           |                             |                  |                        |-{copilot-runtime}(19982)
+           |                             |                  |                        |-{copilot-runtime}(19986)
+           |                             |                  |                        |-{copilot-runtime}(19987)
+           |                             |                  |                        |-{copilot-runtime}(19988)
+           |                             |                  |                        `-{copilot-runtime}(19992)
+           |                             |                  |-{MainThread}(1280)
+           |                             |                  |-{MainThread}(1285)
+           |                             |                  |-{MainThread}(1286)
+           |                             |                  |-{MainThread}(1287)
+           |                             |                  |-{MainThread}(1288)
+           |                             |                  |-{MainThread}(1289)
+           |                             |                  |-{MainThread}(1292)
+           |                             |                  |-{MainThread}(1293)
+           |                             |                  |-{MainThread}(1294)
+           |                             |                  `-{MainThread}(1295)
+           |                             |-MainThread(1296)-+-bash(8442)
+           |                             |                  |-{MainThread}(1297)
+           |                             |                  |-{MainThread}(1298)
+           |                             |                  |-{MainThread}(1299)
+           |                             |                  |-{MainThread}(1300)
+           |                             |                  |-{MainThread}(1301)
+           |                             |                  |-{MainThread}(1302)
+           |                             |                  |-{MainThread}(1304)
+           |                             |                  |-{MainThread}(1305)
+           |                             |                  |-{MainThread}(1306)
+           |                             |                  |-{MainThread}(1307)
+           |                             |                  `-{MainThread}(8443)
+           |                             |-MainThread(19896)-+-MainThread(19962)-+-{MainThread}(19963)
+           |                             |                   |                   |-{MainThread}(19964)
+           |                             |                   |                   |-{MainThread}(19965)
+           |                             |                   |                   |-{MainThread}(19966)
+           |                             |                   |                   |-{MainThread}(19967)
+           |                             |                   |                   |-{MainThread}(19968)
+           |                             |                   |                   |-{MainThread}(19969)
+           |                             |                   |                   |-{MainThread}(19970)
+           |                             |                   |                   |-{MainThread}(19971)
+           |                             |                   |                   `-{MainThread}(19972)
+           |                             |                   |-MainThread(40640)-+-{MainThread}(40641)
+           |                             |                   |                   |-{MainThread}(40642)
+           |                             |                   |                   |-{MainThread}(40643)
+           |                             |                   |                   |-{MainThread}(40644)
+           |                             |                   |                   |-{MainThread}(40645)
+           |                             |                   |                   `-{MainThread}(40646)
+           |                             |                   |-{MainThread}(19897)
+           |                             |                   |-{MainThread}(19898)
+           |                             |                   |-{MainThread}(19899)
+           |                             |                   |-{MainThread}(19900)
+           |                             |                   |-{MainThread}(19901)
+           |                             |                   |-{MainThread}(19902)
+           |                             |                   |-{MainThread}(19903)
+           |                             |                   |-{MainThread}(19904)
+           |                             |                   |-{MainThread}(19905)
+           |                             |                   |-{MainThread}(19906)
+           |                             |                   `-{MainThread}(19919)
+           |                             |-MainThread(19907)-+-{MainThread}(19908)
+           |                             |                   |-{MainThread}(19909)
+           |                             |                   |-{MainThread}(19910)
+           |                             |                   |-{MainThread}(19911)
+           |                             |                   |-{MainThread}(19912)
+           |                             |                   |-{MainThread}(19913)
+           |                             |                   |-{MainThread}(19914)
+           |                             |                   |-{MainThread}(19915)
+           |                             |                   |-{MainThread}(19916)
+           |                             |                   |-{MainThread}(19917)
+           |                             |                   |-{MainThread}(19924)
+           |                             |                   `-{MainThread}(19925)
+           |                             |-{MainThread}(1239)
+           |                             |-{MainThread}(1240)
+           |                             |-{MainThread}(1241)
+           |                             |-{MainThread}(1242)
+           |                             |-{MainThread}(1243)
+           |                             |-{MainThread}(1244)
+           |                             |-{MainThread}(1246)
+           |                             |-{MainThread}(1247)
+           |                             |-{MainThread}(1248)
+           |                             `-{MainThread}(1249)
+           |-sshd(2734)-+-sshd-session(2903)---sshd-session(2910)---bash(2911)---pstree(41580)
+           |            `-sshd-session(36821)---sshd-session(36828)---bash(36829)---sh(36833)-+-code-8a14f0cc1b(36851)-+-{code-8a14+
+           |                                                                                  |                        `-{code-8a14+
+           |                                                                                  `-sleep(41140)
+           |-systemd(1130)---(sd-pam)(1132)
+           |-systemd-journal(405)
+           |-systemd-logind(755)
+           |-systemd-network(16869)
+           |-systemd-timesyn(432)---{systemd-timesyn}(438)
+           |-systemd-udevd(437)
+           `-vmtoolsd(759)-+-{vmtoolsd}(860)
+                           |-{vmtoolsd}(883)
+                           `-{vmtoolsd}(884)
+=== Цепочка родителей текущей оболочки ===
+systemd(1)---sshd(2734)---sshd-session(2903)---sshd-session(2910)---bash(2911)---pstree(41581)
+=== Топ-5 процессов по памяти ===
+    PID    PPID USER     %MEM CMD
+  19896    1238 student    19.0 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node --dns-result-order=ipv4first /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+   1238    1234 student     8.2 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-85e5bb45-677d-45b0-bf2e-31bb51dafd4a
+  19962   19896 student     7.9 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/extensions/mads-hartmann.bash-ide-vscode-1.43.2/out/server.js --node-ipc --clientProcessId=19896
+   1279    1238 student     6.3 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=agentHost --logsPath /home/student/.vscode-server/data/logs/20261121T164745 --user-data-dir /home/student/.vscode-server/data --telemetry-level all
+  40640   19896 student     3.9 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=19896

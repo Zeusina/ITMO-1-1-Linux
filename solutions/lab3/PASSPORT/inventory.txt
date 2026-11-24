@@ -1,0 +1,192 @@
+Формат отчета: v3
+
+=== Дата запуска ===
+Пн 23 ноя 2026 18:05:35 MSK
+
+=== Информация о системе ===
+Имя хоста: lab-host
+Текущий пользователь: student
+Название и версия ядра: Linux #1 SMP Debian 6.12.111-1 (2026-09-28) unknown
+Версия операционной системы: Debian GNU/Linux 13 (trixie)
+
+=== Процессор ===
+Модель процессора: -
+Максимальная частота процессора, МГц: -
+Минимальная частота процессора, МГц: -
+Количество логических ядер: 2
+Кэш L1i: -
+Кэш L1d: -
+Кэш L2: -
+Кэш L3: -
+
+=== Память ===
+Объем физической памяти: 1,9Gi
+
+=== Платформа ===
+Модель материнской платы: VBSA
+Версия BIOS: VMW201.00V.25600138.BA64.2607151225
+Дата выпуска BIOS: 07/15/2026
+
+=== Устройства подключенные к шине PCI ===
+00:00.0 Host bridge: VMware Device 1976 (rev 01)
+00:00.7 System peripheral: VMware Virtual Machine Communication Interface (rev 10)
+00:0f.0 VGA compatible controller: VMware SVGA II Adapter (Fusion)
+00:11.0 PCI bridge: VMware PCI bridge (rev 02)
+00:15.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+01:00.0 USB controller: VMware USB1.1 UHCI Controller
+01:01.0 Audio device: VMware HD Audio Controller (rev 09)
+01:02.0 USB controller: VMware USB2 EHCI Controller
+01:03.0 SATA controller: VMware SATA AHCI controller
+02:00.0 Ethernet controller: Intel Corporation 82574L Gigabit Network Connection
+0a:00.0 USB controller: VMware Device 077a
+12:00.0 Non-Volatile memory controller: VMware NVMe SSD Controller
+
+=== Информация о директории ===
+Текущая директория: /home/student/lab3
+Содержимое текущей директории:
+part-1-scps.txt
+part-1-ss-tnp.txt
+part-1-who.txt
+part-3-6-permissions.txt
+part-4-scp.txt
+PASSPORT
+script31.sh
+script32.sh
+script_passport.sh
+
+=== Пользователи ===
+Пользователь: root
+UID: 0
+Группы: root
+Последний вход: Nov11/09:45
+Последняя смена пароля: ноя 21, 2026
+
+Пользователь: nobody
+UID: 65534
+Группы: nogroup
+Последний вход: Нет данных
+Последняя смена пароля: сен 08, 2026
+
+Пользователь: student
+UID: 1000
+Группы: student cdrom floppy sudo audio dip video plugdev users netdev kkp-1
+Последний вход: Nov22/20:32
+Последняя смена пароля: сен 08, 2026
+
+Пользователь: kkp-1
+UID: 1001
+Группы: kkp-1 sudo users
+Последний вход: Nov11/09:46
+Последняя смена пароля: ноя 11, 2026
+
+Пользователь: u1
+UID: 1002
+Группы: u1 project
+Последний вход: Нет данных
+Последняя смена пароля: ноя 11, 2026
+
+Пользователь: u2
+UID: 1003
+Группы: u2 project
+Последний вход: Нет данных
+Последняя смена пароля: ноя 21, 2026
+
+Пользователь: u3
+UID: 1004
+Группы: u3 project
+Последний вход: Нет данных
+Последняя смена пароля: ноя 11, 2026
+
+Пользователь: u4
+UID: 1005
+Группы: u4 sec2
+Последний вход: Нет данных
+Последняя смена пароля: ноя 11, 2026
+
+Пользователь: u5
+UID: 1006
+Группы: u5 sec2
+Последний вход: Нет данных
+Последняя смена пароля: ноя 11, 2026
+
+Пользователь: u6
+UID: 1007
+Группы: u6
+Последний вход: Нет данных
+Последняя смена пароля: ноя 11, 2026
+
+Пользователь: u7
+UID: 1008
+Группы: u7
+Последний вход: Нет данных
+Последняя смена пароля: ноя 11, 2026
+
+
+=== Параметры sshd ===
+permitrootlogin: no Есть в конфиге
+33:PermitRootLogin no
+port: 22 Нет в конфиге в явном виде
+logingracetime: 30 Есть в конфиге
+35:LoginGraceTime 30
+maxauthtries: 6 Нет в конфиге в явном виде
+passwordauthentication: no Есть в конфиге
+59:PasswordAuthentication no
+pubkeyauthentication: yes Нет в конфиге в явном виде
+
+=== Топ-5 процессов по памяти ===
+    PID    PPID USER     %MEM COMMAND
+  19896    1238 student    18.2 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node --dns-result-order=ipv4first /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false
+   1238    1234 student     8.2 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/server-main.js --connection-token=remotessh --accept-server-license-terms --start-server --enable-remote-auto-shutdown --socket-path=/tmp/code-85e5bb45-677d-45b0-bf2e-31bb51dafd4a
+  19962   19896 student     7.7 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/extensions/mads-hartmann.bash-ide-vscode-1.43.2/out/server.js --node-ipc --clientProcessId=19896
+   1279    1238 student     6.1 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=agentHost --logsPath /home/student/.vscode-server/data/logs/20261121T164745 --user-data-dir /home/student/.vscode-server/data --telemetry-level all
+   1296    1238 student     3.6 /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/node /home/student/.vscode-server/cli/servers/Stable-8a14f0cc1b08d531eb83255ea3764ae22aa932b5/server/out/bootstrap-fork --type=ptyHost --logsPath /home/student/.vscode-server/data/logs/20261121T164745
+
+=== Подозрительные учетные записи ===
+Пользователи с пустым паролем:
+Не обнаружены
+
+Пользователи с UID 0 (кроме root):
+Не обнаружены
+
+=== Файлы с suid ===
+4755 root:root /usr/bin/chfn
+4755 root:root /usr/bin/chsh
+4755 root:root /usr/bin/fusermount3
+4755 root:root /usr/bin/gpasswd
+4755 root:root /usr/bin/mount
+4755 root:root /usr/bin/newgrp
+4755 root:root /usr/bin/passwd
+4755 root:root /usr/bin/su
+4755 root:root /usr/bin/sudo
+4755 root:root /usr/bin/umount

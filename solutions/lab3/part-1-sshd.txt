@@ -1,0 +1,4 @@
+permitrootlogin yes
+port 22
+logingracetime 30
+maxauthtries 2

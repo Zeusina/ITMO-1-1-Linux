@@ -1,0 +1,8 @@
+=== Проверка passwd u2 ===
+/usr/bin/passwd u2
+=== Проверка passwd root ===
+Извините, пользователю u1 не разрешено выполнять «/usr/bin/passwd root» как root на lab-host.
+=== Проверка passwd -d root ===
+/usr/bin/passwd -d root
+=== Проверка ls /root ===
+Извините, пользователю u1 не разрешено выполнять «/usr/bin/ls /root» как root на lab-host.

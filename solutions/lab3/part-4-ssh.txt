@@ -1,0 +1,13 @@
+=== Действующие настройки SSH ===
+port 22
+permitrootlogin no
+pubkeyauthentication yes
+passwordauthentication no
+authorizedkeysfile .ssh/authorized_keys
+=== Явно заданные параметры ===
+/etc/ssh/sshd_config:33:PermitRootLogin no
+/etc/ssh/sshd_config:43:AuthorizedKeysFile	.ssh/authorized_keys
+/etc/ssh/sshd_config:59:PasswordAuthentication no
+=== Права на ключи ===
+drwx------ 2 student student 4096 сен  8 21:30 /home/student/.ssh
+-rw------- 1 student student  103 сен  8 21:30 /home/student/.ssh/authorized_keys
